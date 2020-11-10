@@ -5,7 +5,7 @@ import UnAuthRedirect from './functional/UnAuthRedirect';
 import Home from './functional/home';
 import RenderListItem from './functional/RenderListItem';
 
-import * as ACTIONS from './store/actions/actions';
+import * as ACTIONS from './store/actions/Actions';
 import HooksContainer1 from './hooks/HooksContainer1';
 
 import Auth from './utils/Auth';
