@@ -1,0 +1,2 @@
+A small revision in React hooks, Redux, Context API and Auth. 
+Just something to remind me back to old Lambda School days.
