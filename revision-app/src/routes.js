@@ -1,15 +1,14 @@
-import Component1 from './functional/Component1';
-import Callback from './functional/Callback';
-import PrivateComponent from './functional/PrivateComponent';
-import UnAuthRedirect from './functional/UnAuthRedirect';
-import Home from './functional/home';
-import RenderListItem from './functional/RenderListItem';
+import React from 'react';
+import Routes from './Routes';
 
-import * as ACTIONS from './store/actions/Actions';
-import HooksContainer1 from './hooks/HooksContainer1';
+function routes() {
+    return (
+        <div>
+            <Routes/>
+        </div>
+    )
+}
 
-import Auth from './utils/Auth';
-import AuthCheck from './utils/AuthCheck';
-import History from './utils/History';
+export default routes
 
-import {Router, Route, Switch, Redirect} from 'react-router';
+
